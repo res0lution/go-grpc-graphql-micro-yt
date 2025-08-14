@@ -2,6 +2,9 @@ package main
 
 import (
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/res0lution/go-grpc-graphql-micro-yt/account"
+	"github.com/res0lution/go-grpc-graphql-micro-yt/catalog"
+	"github.com/res0lution/go-grpc-graphql-micro-yt/order"
 )
 
 type Server struct {

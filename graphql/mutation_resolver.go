@@ -1,6 +1,17 @@
 package main
 
-import "context"
+import (
+	"context"
+	"errors"
+	"log"
+	"time"
+
+	"github.com/res0lution/go-grpc-graphql-micro-yt/order"
+)
+
+var (
+	ErrInvalidParameter = errors.New("invalid parameter")
+)
 
 type mutationResolver struct {
 	server *Server

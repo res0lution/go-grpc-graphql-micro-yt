@@ -10,6 +10,7 @@ import (
 
 	"github.com/res0lution/go-grpc-graphql-micro-yt/account"
 	"github.com/res0lution/go-grpc-graphql-micro-yt/catalog"
+	"github.com/res0lution/go-grpc-graphql-micro-yt/order/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
